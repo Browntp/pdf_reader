@@ -1,0 +1,106 @@
+.div_boxes {
+    position: absolute;
+    padding: 10px;
+    border: 1px solid black;
+    opacity: 0.9;
+    background: #bd2e95;
+    width: 200px;
+    height: 300px;
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(36, 34, 34) ;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div_box2 {
+    
+    top: 350px;
+    left: 90px;
+    width: 200px;
+}
+
+.div_box3 {
+    top:680px;
+    left: 200px;
+    width: 350px;
+    height: 250px;
+}
+
+.div_box4 {
+    
+    top: 960px;
+    left: 400px;
+    width: 300px;
+    height: 200px;
+}
+
+.div_box5{
+    
+    top: 1200px;
+    left: 460px;
+    width: 200px;
+    height: 200px;
+}
+
+.div_box6{
+    
+    top: 1420px;
+    left: 600px;
+    width: 250px;
+    height: 250px;
+}
+
+.div_box7{
+    
+    top: 1700px;
+    left: 700px;
+    width: 350px;
+    height: 200px;
+}
+.div_parent{
+    position: relative;
+    width: 100%;
+    height: 2000px;
+    
+    
+}
+
+body {
+    background-color: #682bd7;
+}
+.pdf_upload{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.custom-file{
+    height: 100%;
+}
+
+.input-group{
+    height: 100%;
+}
+.form-inline{
+    height: 100%;
+}
+
+.text_container{
+    margin: auto;
+    width: 50%;
+    top: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+

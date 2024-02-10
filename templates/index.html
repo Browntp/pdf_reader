@@ -1,0 +1,29 @@
+{% extends "base.html"%}
+{% block title%}Home{%endblock%}
+{%block content%}
+
+<div class="div_parent">
+    
+    <div class = "pdf_upload">
+        <form class="form-inline" action="/upload" method="post" enctype="multipart/form-data">
+            <div class="input-group">
+                <div class="custom-file">
+                  <input type="file" class="btn btn-outline-secondary" aria-describedby="inputGroupFileAddon04" id="pdfUpload" name="pdfUpload" accept=".pdf">
+                </div>
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="submit" name = "submit" id="inputGroupFileAddon04">Upload</button>
+                </div>
+            </div>  
+            
+        </form>
+        
+    </div>
+    <div class="div_boxes">...generate hundreds of questions for free</div>
+    <div class="div_box2 div_boxes" >Built in Pomodoro</div>
+    <div class="div_box3 div_boxes">Watch ads to get credit</div>
+    <div class="div_box4 div_boxes">1 Ad = 1 Page of questions</div>
+    <div class="div_box5 div_boxes">Done your questions?</div>
+    <div class="div_box6 div_boxes">Watch an ad</div>
+    <div class="div_box7 div_boxes">Get another problem set</div>
+</div>
+{%endblock%}
